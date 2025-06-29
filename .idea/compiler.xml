@@ -21,8 +21,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cloud-demo" options="-parameters" />
       <module name="services" options="-parameters" />
-      <module name="services-order" options="-parameters" />
-      <module name="services-product" options="-parameters" />
+      <module name="services-order" options="-parameters --add-modules java.base" />
+      <module name="services-product" options="-parameters --add-modules java.base" />
     </option>
   </component>
 </project>
