@@ -1,5 +1,6 @@
 package com.zhh.order.bean;
 
+import com.zhh.product.bean.Product;
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -12,5 +13,5 @@ public class Order {
     private Long userId;
     private String nickname;
     private String address;
-    private List<Object> productList;
+    private List<Product> productList;
 }

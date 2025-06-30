@@ -54,7 +54,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-context:6.1.13" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:6.1.13" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:3.3.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:3.3.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:3.3.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.jayway.jsonpath:json-path:2.9.0" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:2.0.16" level="project" />
@@ -137,5 +136,6 @@
     <orderEntry type="library" name="Maven: org.webjars:swagger-ui:5.10.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:3.3.4" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:3.3.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:3.3.4" level="project" />
   </component>
 </module>
