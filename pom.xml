@@ -4,7 +4,15 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>services</module>
+        <module>configs</module>
+        <module>model</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+    </dependencies>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
