@@ -54,7 +54,6 @@
     <orderEntry type="library" name="Maven: io.micrometer:micrometer-observation:1.13.4" level="project" />
     <orderEntry type="library" name="Maven: io.github.openfeign:feign-core:13.3" level="project" />
     <orderEntry type="library" name="Maven: io.github.openfeign:feign-slf4j:13.3" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:2.0.16" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.34" level="project" />
     <orderEntry type="library" name="Maven: com.github.xiaoymin:knife4j-openapi3-jakarta-spring-boot-starter:4.5.0" level="project" />
     <orderEntry type="library" name="Maven: com.github.xiaoymin:knife4j-core:4.5.0" level="project" />
@@ -71,6 +70,10 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.17.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:6.1.13" level="project" />
     <orderEntry type="library" name="Maven: org.webjars:swagger-ui:5.10.3" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config:2023.0.3.2" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.cloud:spring-alibaba-nacos-config:2023.0.3.2" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:2.0.16" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.annotation:jakarta.annotation-api:2.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:3.3.4" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:3.3.4" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:6.1.13" level="project" />
@@ -86,7 +89,6 @@
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.23.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.23.1" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:2.0.16" level="project" />
-    <orderEntry type="library" name="Maven: jakarta.annotation:jakarta.annotation-api:2.1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:3.3.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.jayway.jsonpath:json-path:2.9.0" level="project" />
     <orderEntry type="library" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:4.0.2" level="project" />
