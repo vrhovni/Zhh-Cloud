@@ -1,6 +1,7 @@
 package com.zhh.order.controller;
 
 import com.zhh.order.bean.Order;
+import com.zhh.order.properties.OrderProperties;
 import com.zhh.order.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -9,21 +10,24 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-@RefreshScope// 开启自动刷新
+//@RefreshScope// 开启自动刷新
 @RestController
 public class OrderController {
 
     @Autowired
+    OrderProperties orderProperties;
+
+    @Autowired
     OrderService orderService;
 
-    @Value("${order.timeout}")
-    String orderTimeout;
-    @Value("${order.auto-confirm}")
-    String orderAutoConfirm;
+//    @Value("${order.timeout}")
+//    String orderTimeout;
+//    @Value("${order.auto-confirm}")
+//    String orderAutoConfirm;
 
     @GetMapping("/config")
     public String config(){
-        return "orderTimeout:"+orderTimeout+",orderAutoConfirm:"+orderAutoConfirm;
+        return "orderTimeout:"+orderProperties.getOrderTimeout()+",orderAutoConfirm:"+orderProperties.getOrderAutoConfirm()+",orderDbUrl:"+orderProperties.getDbUrl();
     }
 
     @GetMapping("/create")

@@ -43,6 +43,8 @@ public class OrderServiceImpl implements OrderService {
         return order;
     }
 
+    //远程调用的三个方法
+    //1.discoveryClient
     private Product getProductFromRemote(Long productId) {
         //TODO: 从远程服务获取商品信息
         List<ServiceInstance> instances = discoveryClient.getInstances("services-product");
@@ -54,7 +56,7 @@ public class OrderServiceImpl implements OrderService {
         return product;
     }
 
-    //基于负载均衡的远程服务获取商品信息
+    //2.基于负载均衡的远程服务获取商品信息
     private Product getProductFromRemoteWithLoadBalancer(Long productId) {
         //TODO: 从远程服务获取商品信息
         ServiceInstance choose = loadBalancerClient.choose("services-product");
@@ -65,7 +67,7 @@ public class OrderServiceImpl implements OrderService {
         return product;
     }
 
-
+    //3。基于注解的负载均衡远程服务获取商品信息
     private Product getProductFromRemoteWithLoadBalancerAnnotation(Long productId) {
 
         String url = "http://services-product/product/"+productId;

@@ -93,6 +93,7 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-cache:3.3.4" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context-support:6.1.13" level="project" />
     <orderEntry type="library" name="Maven: com.stoyanr:evictor:1.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-configuration-processor:3.3.4" level="project" />
     <orderEntry type="module" module-name="model" />
     <orderEntry type="library" name="Maven: com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:2023.0.3.2" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.cloud:spring-cloud-alibaba-commons:2023.0.3.2" level="project" />
